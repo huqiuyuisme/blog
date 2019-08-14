@@ -14,14 +14,17 @@ pthread_cond_t cond = PTHREAD_COND_INITIALIZER;
 void * producer(void *) {
     while (true) {
         pthread_mutex_lock(&mutex);
-        while (num >= max_num) {        
-            pthread_cond_wait(&cond, &mutex);
+        while (num >= max_num) {
             printf("缓冲区满了， 等待消费者消费。。。\n");
+            pthread_cond_wait(&cond, &mutex);
         }
     num ++;
+    printf("生产一个产品， 当前产品数量为： %d\n", num);
+    sleep(1);
     pthread_cond_signal(&cond);
     printf("通知消费者。。。\n");
     pthread_mutex_unlock(&mutex);
+    sleep(1);
     }
     
 }
@@ -29,15 +32,16 @@ void * producer(void *) {
 void * consumer(void *) {
     while (true) {
         pthread_mutex_lock(&mutex);
-        while (num <= 0) {        
-            pthread_cond_wait(&cond, &mutex);
+        while (num <= 0) {   
             printf("缓冲区空了， 等待生产者生产。。。\n");
+            pthread_cond_wait(&cond, &mutex);
         }
     num --;
+    printf("消费一个产品， 当前产品数量为： %d\n", num);
+    sleep(1);
     pthread_cond_signal(&cond);
     printf("通知生产者。。。\n");
     pthread_mutex_unlock(&mutex);
-
     }
 }
 
