@@ -1,4 +1,4 @@
-git vim vscode jupyter notebook pycharm
+git vim vscode jupyter notebook pycharm docker
 linux shell 《linux命令行大全》
 mysql redis 《MySQL必知必会》
 操作系统 哈工大操作系统， 清华操作系统 《操作系统导论》<Python并发编程>
