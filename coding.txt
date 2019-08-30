@@ -1,7 +1,8 @@
 git vim vscode jupyter notebook pycharm docker
-linux shell 《linux命令行大全》
+linux shell 《linux命令行大全》 https://www.icourse163.org/course/BUPT-1003557006?tid=1003802009  
+                             https://www.icourse163.org/course/UESTC-1003040002?tid=1003244007
 mysql redis 《MySQL必知必会》
-操作系统 哈工大操作系统， 清华操作系统 《操作系统导论》<Python并发编程>
+操作系统 哈工大操作系统， 清华操作系统 《操作系统导论》<<Python并发编程>>
 计算机网络 哈工大计算机网络 杭电计算机网络 <计算机网络自顶向下> <Python网络编程（第3版）>
 数据结构与算法 清华(C++版)数据结构与算法 <Python数据结构与算法分析（第2版）> 《算法第四版》《剑指offer》
 python 《python cookbook》《fluent python》
