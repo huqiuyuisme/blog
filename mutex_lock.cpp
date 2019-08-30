@@ -10,7 +10,7 @@ int num = 0;
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
 void * producer(void *) {
-    int time = 10000000;
+    int time = 100000000;
     while (time--) {
         pthread_mutex_lock(&mutex);
         num ++;
@@ -19,7 +19,7 @@ void * producer(void *) {
 }
 
 void * consumer(void *) {
-    int time = 10000000;
+    int time = 100000000;
     while (time--) {
         pthread_mutex_lock(&mutex);
         num --;
