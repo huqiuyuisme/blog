@@ -7,3 +7,11 @@ mysql redis 《MySQL必知必会》
 数据结构与算法 清华(C++版)数据结构与算法 <Python数据结构与算法分析（第2版）> 《算法第四版》《剑指offer》
 python 《python cookbook》《fluent python》
 javascript 《javascript 高级程序设计》<你不知道的JavaScript>
+
+
+https://coding.imooc.com/class/318.html Python服务端工程师就业面试指导
+https://coding.imooc.com/class/213.html Python3实用编程技巧进阶
+https://coding.imooc.com/class/200.html Python高级核心技术97讲
+https://coding.imooc.com/class/355.html 计算机基础——更适合程序员的编程必备基础知识
+11 周精通 Python 计划 https://mooc.study.163.com/smartSpec/detail/1001415001.htm
+
